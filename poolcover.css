@@ -1,0 +1,50 @@
+
+body { 
+  background-color: #212121; 
+  font-family: Verdana, Arial, Helvetica, Sans-Serif; 
+  color: #fff; 
+  font-size: 2.2em;
+  text-align: center;
+  max-width: 500px;
+}
+
+div.button {
+  display:inline-block;
+  color:#444;
+  border:3px solid #DDD;
+  background:#888;
+  box-shadow: 0 0 5px -1px rgba(9,9,9,0.3);
+  cursor:pointer;
+  vertical-align:middle;
+  width: 400px;
+  max-width: 300px;
+  padding: 15px;
+  margin: 4px;
+  text-align: center;
+  font-weight: bold;
+}
+
+div.button:active {
+  color:red;
+  box-shadow: 0 0 5px -1px rgba(0,0,0,0.6);
+}
+
+a {
+  color: #110011; 
+}
+
+.statusopening, .statusclosing {
+  font-weight: bold;
+  color: red;
+}
+
+div#statuslabel {
+  font-size: .7em;
+  padding: 15px;
+}
+
+div#versionlabel {
+  font-size: .3em;
+  padding-top: 25px;
+}
+
